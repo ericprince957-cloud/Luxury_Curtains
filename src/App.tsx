@@ -99,7 +99,7 @@ function Header() {
           {/* Logo */}
           <div className="flex flex-col">
             <h1 className="text-lg sm:text-xl font-bold text-dark tracking-wide uppercase">
-              <span className="text-gold">EBUS</span> LUXURY CURTAINS
+              <span className="text-gold">LUXURY</span> CURTAINS
             </h1>
             <p className="text-[10px] sm:text-xs text-dark-light flex items-center gap-1">
               <MapPin size={10} className="text-gold" />
@@ -122,7 +122,7 @@ function Header() {
               Contact
             </a>
             <a
-              href={getWhatsAppLink('Hi Ebus, I would like to know more about your curtains.')}
+              href={getWhatsAppLink('Hi, I would like to know more about your curtains.')}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gold hover:bg-gold-dark text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all hover:shadow-lg flex items-center gap-2"
@@ -160,7 +160,7 @@ function Header() {
                 Contact
               </a>
               <a
-                href={getWhatsAppLink('Hi Ebus, I would like to know more about your curtains.')}
+                href={getWhatsAppLink('Hi, I would like to know more about your curtains.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gold text-white px-5 py-3 rounded-full font-semibold text-sm text-center flex items-center justify-center gap-2"
@@ -225,7 +225,7 @@ function HeroSection() {
               View Collection
             </a>
             <a
-              href={getWhatsAppLink('Hi Ebus, I am interested in your curtains. Please send me more details.')}
+              href={getWhatsAppLink('Hi, I am interested in your curtains. Please send me more details.')}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto border-2 border-gold text-gold hover:bg-gold hover:text-white px-8 py-4 rounded-full font-semibold text-base transition-all flex items-center justify-center gap-2"
@@ -271,7 +271,7 @@ function ProductCard({ product }: { product: typeof products[0] }) {
         <p className="text-dark-light text-sm mb-4">{product.description}</p>
         <a
           href={getWhatsAppLink(
-            `Hi Ebus, I'm interested in this curtain design: "${product.title}" (${product.price}). Please send me more details and availability.`
+            `Hi, I'm interested in this curtain design: "${product.title}" (${product.price}). Please send me more details and availability.`
           )}
           target="_blank"
           rel="noopener noreferrer"
@@ -322,7 +322,7 @@ function ProductGallery() {
           </p>
           <a
             href={getWhatsAppLink(
-              'Hi Ebus, I am interested in buying curtains in bulk/cartons. Please share wholesale prices and available designs.'
+              'Hi, I am interested in buying curtains in bulk/cartons. Please share wholesale prices and available designs.'
             )}
             target="_blank"
             rel="noopener noreferrer"
@@ -479,7 +479,7 @@ function ContactSection() {
             {/* Big WhatsApp Button */}
             <a
               href={getWhatsAppLink(
-                'Hi Ebus, I would like to place an order. Please assist me.'
+                'Hi, I would like to place an order. Please assist me.'
               )}
               target="_blank"
               rel="noopener noreferrer"
@@ -500,7 +500,7 @@ function ContactSection() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="EBUS LUXURY CURTAINS Location - Ariaria Market, Aba"
+              title="Luxury Curtains Location - Ariaria Market, Aba"
             />
           </div>
         </div>
@@ -518,7 +518,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-xl font-bold mb-3">
-              <span className="text-gold">EBUS</span> LUXURY CURTAINS
+              <span className="text-gold">LUXURY</span> CURTAINS
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Your trusted source for premium Turkey curtains in Aba, Nigeria. Quality fabric, unbeatable prices.
@@ -541,7 +541,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href={getWhatsAppLink('Hi Ebus, I need help choosing curtains.')}
+                  href={getWhatsAppLink('Hi, I need help choosing curtains.')}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors text-sm"
@@ -580,7 +580,7 @@ function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-700 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-400 text-sm">
-            © 2026 Ebus Luxury Curtains. All rights reserved.
+            © 2026 Luxury Curtains. All rights reserved.
           </p>
           <p className="text-gray-500 text-xs">
             Ariaria International Market, Aba, Nigeria
@@ -595,7 +595,7 @@ function Footer() {
 function FloatingWhatsApp() {
   return (
     <a
-      href={getWhatsAppLink('Hi Ebus, I saw your website and I am interested in your curtains.')}
+      href={getWhatsAppLink('Hi, I saw your website and I am interested in your curtains.')}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#1da851] text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-2xl transition-all hover:scale-110 whatsapp-pulse"
