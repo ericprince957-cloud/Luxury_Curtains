@@ -67,7 +67,7 @@ const products = [
   },
 ];
 
-const WHATSAPP_BASE = 'https://wa.me/2348109663381';
+const WHATSAPP_BASE = 'https://wa.me/2347026368261';
 
 function getWhatsAppLink(message: string) {
   return `${WHATSAPP_BASE}?text=${encodeURIComponent(message)}`;
@@ -450,9 +450,9 @@ function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-bold text-dark text-lg mb-1">Phone Number</h3>
-                  <p className="text-dark-light text-lg font-medium">0810 966 3381</p>
+                  <p className="text-dark-light text-lg font-medium">0702 636 8261</p>
                   <a
-                    href="tel:+2348109663381"
+                    href="tel:+2347026368261"
                     className="text-gold hover:text-gold-dark text-sm font-medium mt-1 inline-flex items-center gap-1"
                   >
                     <ExternalLink size={12} />
@@ -550,8 +550,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+2348109663381" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Call: 0810 966 3381
+                <a href="tel:+2347026368261" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Call: 0702 636 8261
                 </a>
               </li>
             </ul>
@@ -567,7 +567,7 @@ function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={14} className="text-gold flex-shrink-0" />
-                0810 966 3381
+                0702 636 8261
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle size={14} className="text-gold flex-shrink-0" />
